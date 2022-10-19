@@ -3,9 +3,9 @@ let str="masai";
 
 // Checking wither string is palindrome or not
 let str1="";
-for(let i=str.length-1; i>=0; i++)
+for(let i=str.length-1; i>=0; i--)
 {
-	str1+=str1+str[i];
+	str1=str1+str[i];
 }
 if(str==str1)
 {
